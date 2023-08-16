@@ -1,0 +1,21 @@
+notas de aula
+
+16/08/2023
+
+NewProject > EmptyActivity
+Language Java
+SDK API21 - Android 5 Lolipop
+//Gradle 32
+
+Activity_main.xml
+substituir
+androidx.constraintlayout.widget.ConstraintLayout
+por LinearLayout
+
+textview:
+android:text="Exemplo de texto" 
+Selecionar o texto, Alt+Enter, Extract String Source > criar um nome para a variavel: textview_...
+android:text="@string/textview_rotulo"
+
+as variáveis serão armazenadas em res>values>strings.xml
+ Ex: <string name="textview_rotulo">Responda a pergunda</string>
