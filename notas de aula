@@ -17,6 +17,15 @@ Activity_main.xml
 substituir
 androidx.constraintlayout.widget.ConstraintLayout
 por LinearLayout
+Adicionar oritação vertical
+android:orientation="vertical"
+
+em textview, excluir as linhas:
+app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" 
+
 
 textview:
 android:text="Exemplo de texto" 
