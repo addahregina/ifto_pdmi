@@ -4,7 +4,11 @@ Notas de aula
 30/08/2023
 
 Actionbar
-res>layout> new LayoutResourceFile > tollbar.xml
+
+# manifests> AndroidManifest.xml
+        android:theme="@style/Theme.Design.NoActionBar"
+
+# res>layout> new LayoutResourceFile > tollbar.xml
 Substituir <Tollbar> por <androidx.appcompat.widget.Toolbar>
 
 # res>layout>activity_main.xml incluir
@@ -16,6 +20,23 @@ Substituir <Tollbar> por <androidx.appcompat.widget.Toolbar>
         setSupportActionBar(mytoolbar);
  !) import androidx.appcompat.widget.Toolbar;
 
+
+
+Menu Flutuante
+res > new Resource Directory:: type menu
+Menu > new Resource Menu Resource File
+
+Ex. item:
+<item android:id="@+id/bolo"
+        app:showAsAction="ifRoom" //exibe o item na toolbar
+        android:title="bolo" />
+
+
+
+main.java
+botão direito > generate > overhide methods
+onCreateOptionsMenu
+onOptionsItemSelected
 
 
 
