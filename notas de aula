@@ -3,13 +3,23 @@ Notas de aula
 
 30/08/2023
 
+alinhar imagem no centro
+android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:scaleType="center"
+
+
+
 Actionbar
 
 # manifests> AndroidManifest.xml
         android:theme="@style/Theme.Design.NoActionBar"
 
 # res>layout> new LayoutResourceFile > tollbar.xml
+root element Toolbar
 Substituir <Tollbar> por <androidx.appcompat.widget.Toolbar>
+    android:layout_height="wrap_content"
 
 # res>layout>activity_main.xml incluir
    <include android:id="@+id/toolbar"
@@ -19,7 +29,6 @@ Substituir <Tollbar> por <androidx.appcompat.widget.Toolbar>
  Toolbar mytoolbar= findViewById(R.id.toolbar);
         setSupportActionBar(mytoolbar);
  !) import androidx.appcompat.widget.Toolbar;
-
 
 
 Menu Flutuante
@@ -37,6 +46,18 @@ main.java
 botão direito > generate > overhide methods
 onCreateOptionsMenu
 onOptionsItemSelected
+
+@Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.mymenu, menu);
+        return true;
+    }
+
+ @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item){
+        if(R.id.[item id] == item.getItemId()){
+            ....
+        }
 
 --------------------------------
 
