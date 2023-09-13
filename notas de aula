@@ -1,6 +1,52 @@
 
 Notas de aula
 
+public HashMap<String, String> getMapa() { 
+HashMap<String, String> map = new HashMap<>(); 
+map.put("AC", "Acre"); map.put("AL", "Alagoas");
+map.put("AP", "Amapá"); map.put("AM", "Amazonas");
+map.put("BA", "Bahia"); map.put("CE", "Ceará"); 
+map.put("DF", "Distrito Federal"); map.put("ES", "Espírito Santo"); 
+map.put("GO", "Goiás"); 
+//resto dos put() 
+return map; }
+
+//colors
+
+
+
+
+<palette>
+  <color name="Space cadet" hex="1b1b3a" r="27" g="27" b="58" />
+  <color name="Finn" hex="693668" r="105" g="54" b="104" />
+  <color name="Magenta haze" hex="a74482" r="167" g="68" b="130" />
+  <color name="Brilliant rose" hex="f84aa7" r="248" g="74" b="167" />
+  <color name="Folly" hex="ff3562" r="255" g="53" b="98" />
+</palette>
+
+<palette>
+  <color name="Mint cream" hex="f1f7ed" r="241" g="247" b="237" />
+  <color name="Dark slate gray" hex="243e36" r="36" g="62" b="54" />
+  <color name="Cambridge blue" hex="7ca982" r="124" g="169" b="130" />
+  <color name="Nyanza" hex="e0eec6" r="224" g="238" b="198" />
+  <color name="Old gold" hex="c2a83e" r="194" g="168" b="62" />
+</palette>
+
+<palette>
+  <color name="Indigo dye" hex="274060" r="39" g="64" b="96" />
+  <color name="Lapis Lazuli" hex="335c81" r="51" g="92" b="129" />
+  <color name="Argentinian Blue" hex="65afff" r="101" g="175" b="255" />
+  <color name="Space cadet" hex="1b2845" r="27" g="40" b="69" />
+  <color name="United Nations Blue" hex="5899e2" r="88" g="153" b="226" />
+</palette>
+
+
+
+
+Atitividade Avaliativa 
+criar um id para para o layout
+
+
 30/08/2023
 
 alinhar imagem no centro
